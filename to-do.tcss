@@ -1,0 +1,41 @@
+* {
+    scrollbar-background: #161e31;
+    scrollbar-background-hover: #161e31;
+    scrollbar-background-active: #161e31;
+
+    scrollbar-color: #33405d;
+    scrollbar-color-hover: #404f71;
+    scrollbar-color-active: #4f608a;
+
+    color: #e9e9e9;
+}
+#_default {
+    background: #0a0e1b;
+}
+
+Button {
+    text-style: none;
+    background: #20283b;
+    background-tint: transparent;
+    border: none;
+
+    &:hover {
+        background: #20283b;
+        color: #91abec;
+        border: none;
+        text-style: bold;
+    }
+    &:focus {
+        background: #20283b;
+        color: #91abec;
+        border: none;
+        text-style: bold;
+    }
+    &.-active {
+        background: #20283b;
+        color: #5475c7;
+        border: none;
+        text-style: bold;
+        tint: #273148 0%;
+    }
+}
